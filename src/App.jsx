@@ -1,7 +1,13 @@
-import Slider from "./components/Slider/Slider"
+import Header from "./components/Header/Header";
+import Slider from "./components/Slider/Slider";
 
 function App() {
-  return <Slider />
+  return (
+    <>
+      <Header />
+      <Slider />
+    </>
+  );
 }
 
-export default App
+export default App;
