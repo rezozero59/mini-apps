@@ -7,6 +7,7 @@ const Countries = () => {
   const [data, setData] = useState([]);
   const [rangeValue, setRangeValue] = useState(36);
   const [selectedRadio, setSelectedRadio] = useState("");
+  const [search, setSearch] = useState(""); // État pour la recherche
   const radios = ["Africa", "America", "Asia", "Europe", "Oceania"];
 
   // Le useEffect se joue lorsque le composant est monté
@@ -23,6 +24,20 @@ const Countries = () => {
 
     fetchCountries();
   }, []);
+
+  const handleSearch = (event) => {
+    setSearch(event.target.value);
+  };
+
+  const filteredData = data
+    .filter((country) =>
+      selectedRadio ? country.continents[0].includes(selectedRadio) : true
+    )
+    .filter((country) =>
+      search.length >= 3
+        ? country.name.common.toLowerCase().includes(search.toLowerCase())
+        : true
+    );
 
   return (
     <div className="countries">
@@ -53,9 +68,19 @@ const Countries = () => {
           Annuler la recherche
         </button>
       )}
+      <div className="search-box">
+        <input
+          type="text"
+          placeholder="Rechercher un pays..."
+          value={search}
+          onChange={handleSearch}
+        />
+      </div>
+      {search.length >= 3 && filteredData.length === 0 && (
+        <p>Aucun pays ne correspond à votre recherche.</p>
+      )}
       <ul className="flags-container">
-        {data
-          .filter((country) => country.continents[0].includes(selectedRadio))
+        {filteredData
           .sort((a, b) => b.population - a.population)
           .slice(0, rangeValue)
           .map((country, index) => (
