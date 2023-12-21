@@ -4,11 +4,11 @@ import Weather from "./components/Weather/Weather";
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
       <Slider />
       <Weather />
-    </>
+    </div>
   );
 }
 

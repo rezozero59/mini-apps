@@ -24,6 +24,13 @@ body {
   text-align: center;
   position: relative;
 }
+.title {
+  background: #5e5e5e;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ededed;
+  border-radius: 5px;
+}
 .loader-container {
   background-color: #f1f1f1;
   position: absolute;
