@@ -1,10 +1,12 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #111;
+  background-color: #bbbbbb;
   font-family: Inter, Helvetica, sans-serif;
 }
