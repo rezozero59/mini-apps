@@ -38,7 +38,8 @@ export default function Slider() {
   }, []);
 
   return (
-    <>
+    <div className="slider-container">
+      <h2 className="slider-title">Slider</h2>
       <p className="index-info">
         {sliderIndex} / {sliderData.length}
       </p>
@@ -65,6 +66,6 @@ export default function Slider() {
           <img src={rightChevron} alt="next image" />
         </button>
       </div>
-    </>
+    </div>
   );
 }
