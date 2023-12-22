@@ -10,7 +10,6 @@ const Countries = () => {
   const [search, setSearch] = useState(""); // État pour la recherche
   const radios = ["Africa", "America", "Asia", "Europe", "Oceania"];
 
-  // Le useEffect se joue lorsque le composant est monté
   useEffect(() => {
     const fetchCountries = async () => {
       try {
