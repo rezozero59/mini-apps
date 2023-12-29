@@ -10,6 +10,7 @@
   text-align: center;
   color: #e6e6e6;
   font-weight: 400;
+  font-size: 2rem;
   margin: 10 auto;
   background: #6a6a6a;
   border-radius: 5px;
@@ -19,8 +20,8 @@
   text-align: center;
   color: #464646;
   margin: 15px 0 25px;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 400;
 }
 .slider {
   max-width: 600px;

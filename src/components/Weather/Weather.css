@@ -13,7 +13,7 @@ body {
 }
 
 .weather-app {
-  max-width: 600px;
+  width: 100%;
   min-height: 380px;
   margin: 50px 0px;
   border-radius: 10px;
