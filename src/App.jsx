@@ -10,6 +10,7 @@ function App() {
       <Slider />
       <Weather />
       <Countries />
+      {/* autres applis à venir... */}
     </div>
   );
 }

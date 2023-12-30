@@ -14,7 +14,7 @@ function Weather() {
         const response = await fetch(
           `http://api.airvisual.com/v2/nearest_city?key=${APIKEY}`
         );
-
+        // Vérifier doc API pour savoir comment récupérer les donné<es></es>
         // Log the response
         console.log(response);
 
