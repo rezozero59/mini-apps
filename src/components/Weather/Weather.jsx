@@ -46,7 +46,7 @@ function Weather() {
 
   return (
     <div className="weather-app">
-      <h2 className="title">Meteo locale</h2>
+      <h2 className="title">2-Meteo locale</h2>
       <div
         className={`loader-container ${!weatherData && !errorInfo && "active"}`}
       >

@@ -40,7 +40,7 @@ const Countries = () => {
 
   return (
     <div className="countries">
-      <h2>Géo: drapeaux, pays, capitales et population</h2>
+      <h2>3-Géo: drapeaux, pays, capitales et population</h2>
       <ul className="radio-container">
         <input
           type="range"
