@@ -5,7 +5,8 @@ export default function Header() {
   return (
     <div className="container">
       <h1 className="header-title">Mini projets React by Laurent Delassus</h1>
-      <h4>Décembre 2023</h4>
+      <p>Décembre 2023</p>
+      <p>Petits projets d'entrainement </p>
     </div>
   );
 }
