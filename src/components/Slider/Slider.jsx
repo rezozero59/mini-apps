@@ -40,6 +40,9 @@ export default function Slider() {
   return (
     <div className="slider-container">
       <h2 className="slider-title"> 1-Slider photos</h2>
+      <p className="slider-subtitle">
+        Click on the arrows to navigate through the images
+      </p>
       <p className="index-info">
         {sliderIndex} / {sliderData.length}
       </p>
