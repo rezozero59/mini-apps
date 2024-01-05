@@ -76,7 +76,7 @@ const Countries = () => {
         />
       </div>
       {search.length >= 3 && filteredData.length === 0 && (
-        <p>Aucun pays ne correspond à votre recherche.</p>
+        <p>Aucun pays trouvé</p>
       )}
       <ul className="flags-container">
         {filteredData

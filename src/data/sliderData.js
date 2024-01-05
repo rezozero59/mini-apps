@@ -9,15 +9,15 @@ const sliderData = [
   },
   {
     id: 3,
-    description: "Bedroom",
+    description: "Projet 3",
   },
   {
     id: 4,
-    description: "Bathroom",
+    description: "Projet 4",
   },
   {
     id: 5,
-    description: "Balcony",
+    description: "Projet 5",
   },
 ];
 export default sliderData;

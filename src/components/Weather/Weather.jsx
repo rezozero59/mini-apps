@@ -16,6 +16,7 @@ function Weather() {
         );
         // Vérifier doc API pour savoir comment récupérer les donné<es></es>
         // Log the response
+        // Style à approfondir
         console.log(response);
 
         // Check for response errors
