@@ -17,6 +17,8 @@ function Weather() {
         // Vérifier doc API pour savoir comment récupérer les donné<es></es>
         // Log the response
         // Style à approfondir
+
+        // Voir aussi api meteo france qui est gratuite
         console.log(response);
 
         // Check for response errors
