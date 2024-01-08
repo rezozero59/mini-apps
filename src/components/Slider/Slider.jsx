@@ -51,7 +51,7 @@ export default function Slider() {
           {sliderData.find((obj) => obj.id === sliderIndex).description}
         </p>
         <img
-          src={`/images/img-${sliderIndex}.jpg`}
+          src={`/images/test00${sliderIndex}.jpg`}
           alt="estate's rooms"
           className="slider-img"
         />
