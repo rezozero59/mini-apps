@@ -76,7 +76,7 @@ const sliderData = [
     description: "Projet 19",
   },
   {
-    id: 30,
+    id: 20,
     description: "Projet 20",
   },
 ];
