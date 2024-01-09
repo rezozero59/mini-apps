@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import tabs from "./features/tabs";
-import preview from "./features/preview";
+import tabs from "./components/Ide/features/tabs";
+import preview from "./components/Ide/features/preview";
 
 export const store = configureStore({
   reducer: {

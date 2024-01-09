@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4e4e4;
+  font-family: Inter, Helvetica, sans-serif;
+  min-height: 200vh;
+  padding: 0 50px;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
