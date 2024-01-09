@@ -1,9 +1,10 @@
 import Tabs from "./components/Tabs";
 import PreviewButton from "./components/PreviewButton";
+import "./IdeApp.css";
 
 function IdeApp() {
   return (
-    <div className="bg-zinc-900 min-h-screen flex flex-col">
+    <div className="ideContainer bg-zinc-900 w-full min-h-screen flex flex-col mt-10 rounded-lg">
       <div className="px-4 py-4 border-b flex items-center">
         <h1 className="w-full text-slate-50 text-2xl">
           <span className="text-base">The </span>Éditeur de texte
