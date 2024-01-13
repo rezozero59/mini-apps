@@ -22,7 +22,7 @@ function Pomodoro() {
       <h1 className="text-center text-3xl py-4 mb-4 rounded-xl bg-slate-400">
         5-Application Pomodoro
       </h1>
-      <div className="bg-slate-700 text-slate-100   rounded-xl">
+      <div className="bg-slate-500 text-slate-100   rounded-xl">
         <div className="max-w-xl mx-auto border border-slate-500 rounded p-10">
           <h2 className="text-center text-3xl mb-8">Pomodoro App</h2>
 
