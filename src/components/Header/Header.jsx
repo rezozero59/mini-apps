@@ -6,7 +6,7 @@ export default function Header() {
     <div className="container">
       <h1 className="header-title">Mini projets React by Laurent Delassus</h1>
       <p>2023</p>
-      <p>Petits projets pour s'entrainer </p>
+      <p>Projets pour s'entrainer avec React</p>
     </div>
   );
 }
