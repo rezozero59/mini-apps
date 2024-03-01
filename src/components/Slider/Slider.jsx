@@ -41,7 +41,7 @@ export default function Slider() {
     <div className="slider-container">
       <h2 className="slider-title"> 1-Slider photos</h2>
       <p className="slider-subtitle">
-        Click on the arrows to navigate through the images
+        Cliquer sur les flèches pour changer de photo
       </p>
       <p className="index-info">
         {sliderIndex} / {sliderData.length}
