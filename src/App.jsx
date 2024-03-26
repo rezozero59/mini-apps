@@ -1,3 +1,5 @@
+// Préparer structure de base de l'application pour les stagiaires
+
 import Countries from "./components/Countries/Countries";
 import Header from "./components/Header/Header";
 import IdeApp from "./components/Ide/IdeApp";
@@ -16,6 +18,7 @@ function App() {
       <Pomodoro />
 
       {/* autres applis à venir... */}
+      {/* exos à intégrer pour les stagiaires */}
     </div>
   );
 }
